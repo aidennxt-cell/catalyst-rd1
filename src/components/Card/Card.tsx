@@ -4,7 +4,7 @@ import styles from './Card.module.css';
 interface CardProps {
     children: ReactNode;
     title?: string;
-    icon?: string;
+    icon?: ReactNode;
     className?: string;
     variant?: 'default' | 'bordered';
 }
