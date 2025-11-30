@@ -42,7 +42,7 @@ export default function Contact() {
                     </p>
                     <p>
                         Email us directly at:<br />
-                        <a href="mailto:partners@aiden.ai" style={{ color: '#fff', textDecoration: 'underline' }}>partners@aiden.ai</a>
+                        <a href="mailto:collaborate.aiden@gmail.com" style={{ color: '#fff', textDecoration: 'underline' }}>collaborate.aiden@gmail.com</a>
                     </p>
                 </div>
             </div>
