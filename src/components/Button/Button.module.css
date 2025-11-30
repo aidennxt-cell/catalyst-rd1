@@ -1,0 +1,73 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+/* Variants */
+.primary {
+    background-color: #fff;
+    color: #000;
+}
+
+.primary:hover {
+    background-color: #e5e5e5;
+}
+
+.secondary {
+    background-color: #333;
+    color: #fff;
+}
+
+.secondary:hover {
+    background-color: #444;
+}
+
+.outline {
+    background-color: transparent;
+    border-color: #333;
+    color: #fff;
+}
+
+.outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Sizes */
+.sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+.md {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+}
+
+.lg {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+}
+
+/* Modifiers */
+.fullWidth {
+    width: 100%;
+    display: flex;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
